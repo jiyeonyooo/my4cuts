@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PyeongChangPeace-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PyeongChang-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChang-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.name-header {
+    margin: 100px 0px 70px 0px;
+    text-align: center;
+    font-family: 'PyeongChangPeace-Bold';
+    font-weight: 300;
+    color: white;
+}
+
+/*@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}*/
+
+.name-header__sub {
+    font-family: 'PyeongChangPeace-Light';
+    font-size: 30px;
+}
+
+.name-header__main {
+    margin-top: 30px;
+    font-size: 70px;
+
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-delay: 2.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+
+.frame-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-delay: 2.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+
+.frame-select__button {
+    font-family: 'PyeongChangPeace-Bold';
+    font-size: 40px;
+    width: 150px;
+    height:150px;
+    border-radius: 150px;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 20px 7px rgb(52, 5, 163) ;
+
+}
+
+.circular-text {
+    color:white;
+    font-family: 'PyeongChangPeace-Light';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-delay: 2.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+.frame-header {
+    margin: 40px 0px;
+    color: white;
+    font-family: 'PyeongChangPeace-Light';
+    font-size: 30px;
+    text-align: center;
+}
+
+.pic-header {
+    margin: 40px 0px;
+    color: white;
+    font-family: 'PyeongChangPeace-Light';
+    font-size: 30px;
+    text-align: center;
+}
